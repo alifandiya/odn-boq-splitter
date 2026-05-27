@@ -25,6 +25,7 @@ Dynamic Mapping & Smart Filtering: Sistem secara otomatis mendeteksi baris heade
 Flexible Document Modes (APD & ABD): Mendukung pengolahan dokumen terintegrasi baik untuk tahap perencanaan (APD - As Plan Design) maupun tahap realisasi lapangan (ABD - As Build Design) hanya dengan sekali klik dropdown lembar kerja target.
 
 🔥 Fitur Unggulan
+
 🌐 Trilingual Interface: Ganti bahasa GUI secara instan antara Indonesia, English, dan Mandarin (中文) langsung dari dropdown.
 
 🛡️ Zero-Rigid Structure: Bebas dari error kolom geser! Sistem memindai posisi kolom menggunakan alias teks secara dinamis.
