@@ -53,11 +53,11 @@ Openpyxl Engine: Digunakan sebagai mesin penulis dokumen Excel keluaran demi men
 Tkinter Engine: Menghadirkan tampilan panel kontrol, dropdown sheet dinamis, dan baris status pemrosesan yang responsif serta bebas dari dependensi eksternal yang berat.
 
 💻 Cara Penggunaan
-1. **Unduh Aplikasi**: Masuk ke tab [Releases]([https://github.com/alifandiya/odn-boq-splitter/releases/tag/odn_boq_splitter]) di repositori ini dan unduh semua file source code.
-Instal Dependensi: Cukup klik dua kali pada file BUILD_EXE.bat. untuk memasang modul pustaka yang dibutuhkan secara otomatis.
-Jalankan Aplikasi: Klik dua kali pada file JALANKAN_APLIKASI.bat untuk membuka antarmuka grafis aplikasi.
-Pilih Parameter & File: Pilih bahasa yang diinginkan, tentukan jenis dokumen (APD/ABD), unggah file Excel BOQ input, lalu pilih lembar kerja target dari dropdown yang muncul.
-Mulai Konversi: Klik tombol Mulai Konversi untuk mengekstrak data. Hasil akhir berupa file Material dan Service akan langsung digenerate pada folder tujuan yang telah ditentukan.
+1. **Unduh Aplikasi** : Masuk ke tab [Releases]([https://github.com/alifandiya/odn-boq-splitter/releases/tag/odn_boq_splitter]) di repositori ini dan unduh semua file source code.
+2. **Instal Dependensi** : Cukup klik dua kali pada file BUILD_EXE.bat. untuk memasang modul pustaka yang dibutuhkan secara otomatis.
+3. **Jalankan Aplikasi** : Klik dua kali pada file JALANKAN_APLIKASI.bat untuk membuka antarmuka grafis aplikasi.
+4. **Pilih Parameter & File** : Pilih bahasa yang diinginkan, tentukan jenis dokumen (APD/ABD), unggah file Excel BOQ input, lalu pilih lembar kerja target dari dropdown yang muncul.
+5. **Mulai Konversi** : Klik tombol Mulai Konversi untuk mengekstrak data. Hasil akhir berupa file Material dan Service akan langsung digenerate pada folder tujuan yang telah ditentukan.
 
 📋 Persyaratan Sistem
 Sistem Operasi: Windows 10 / Windows 11 (64-bit).
