@@ -106,6 +106,6 @@ Berikut adalah gambaran bagaimana aplikasi memproses data secara dinamis dari fi
 ├── material_codes_to_delete.txt           # Blacklist item yang akan otomatis dibuang
 ├── material_codes_to_convert_unit.txt     # Target item untuk konversi satuan (m -> KM)
 ├── requirements.txt                       # Library Python yang dibutuhkan
-├── INSTALL_REQUIREMENTS.bat               # Installer dependensi (Sekali klik)
-└── JALANKAN_APLIKASI.bat                  # Launcher aplikasi Windows (Sekali klik)
+├── BUILD_EXE.bat.                         # Installer dependensi (Sekali klik)
+└── FILE .exe berada di folder dist        # Launcher aplikasi Windows (Sekali klik)
  
