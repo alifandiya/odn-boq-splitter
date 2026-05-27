@@ -52,6 +52,7 @@ Berikut adalah gambaran bagaimana aplikasi memproses data secara dinamis dari fi
 
 🏡 Auto Community Permit (Opsional): Jika diaktifkan, skrip akan menembak baris baru berisi data perizinan RT/RW (Home Pass) secara otomatis berdasarkan sel referensi.
 
+📁 Bedah Struktur Proyek
 ├── Kalashnikova_BOQ_Split_V1.py           # Kode utama aplikasi (GUI Tkinter)
 ├── config.json                            # Remote control aplikasi (Alias & Konfigurasi)
 ├── material_code_match.txt                # Database fallback deskripsi kode material
@@ -61,3 +62,4 @@ Berikut adalah gambaran bagaimana aplikasi memproses data secara dinamis dari fi
 ├── requirements.txt                       # Library Python yang dibutuhkan
 ├── INSTALL_REQUIREMENTS.bat               # Installer dependensi (Sekali klik)
 └── JALANKAN_APLIKASI.bat                  # Launcher aplikasi Windows (Sekali klik)
+ 
