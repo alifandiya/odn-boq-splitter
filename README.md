@@ -34,17 +34,6 @@ Flexible Document Modes (APD & ABD): Mendukung pengolahan dokumen terintegrasi b
 
 🏡 Auto Community Permit (Opsional): Jika diaktifkan, skrip akan menembak baris baru berisi data perizinan RT/RW (Home Pass) secara otomatis berdasarkan sel referensi.
 
-📁 Bedah Struktur Proyek
-├── Kalashnikova_BOQ_Split_V1.py           # Kode utama aplikasi (GUI Tkinter)
-├── config.json                            # Remote control aplikasi (Alias & Konfigurasi)
-├── material_code_match.txt                # Database fallback deskripsi kode material
-├── service_code_match.txt                 # Database fallback deskripsi kode service
-├── material_codes_to_delete.txt           # Blacklist item yang akan otomatis dibuang
-├── material_codes_to_convert_unit.txt     # Target item untuk konversi satuan (m -> KM)
-├── requirements.txt                       # Library Python yang dibutuhkan
-├── INSTALL_REQUIREMENTS.bat               # Installer dependensi (Sekali klik)
-└── JALANKAN_APLIKASI.bat                  # Launcher aplikasi Windows (Sekali klik)
-
 🛠️ Teknologi yang Digunakan
 Aplikasi ini dibangun menggunakan ekosistem Python modern yang dioptimalkan untuk performa manipulasi data struktural tingkat tinggi, memanfaatkan beberapa pustaka powerhouse berikut:
 Python 3.x: Menggunakan runtime Python untuk efisiensi eksekusi data dan kestabilan antarmuka grafis.
@@ -108,4 +97,15 @@ Berikut adalah gambaran bagaimana aplikasi memproses data secara dinamis dari fi
         ▼               ▼
  📦 File Material  🛠️ File Service
  (Format Clean)    (+ RT/RW Permit Opsional)
+
+📁 Bedah Struktur Proyek
+├── Kalashnikova_BOQ_Split_V1.py           # Kode utama aplikasi (GUI Tkinter)
+├── config.json                            # Remote control aplikasi (Alias & Konfigurasi)
+├── material_code_match.txt                # Database fallback deskripsi kode material
+├── service_code_match.txt                 # Database fallback deskripsi kode service
+├── material_codes_to_delete.txt           # Blacklist item yang akan otomatis dibuang
+├── material_codes_to_convert_unit.txt     # Target item untuk konversi satuan (m -> KM)
+├── requirements.txt                       # Library Python yang dibutuhkan
+├── INSTALL_REQUIREMENTS.bat               # Installer dependensi (Sekali klik)
+└── JALANKAN_APLIKASI.bat                  # Launcher aplikasi Windows (Sekali klik)
  
