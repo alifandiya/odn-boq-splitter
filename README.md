@@ -9,7 +9,7 @@ Aplikasi ini membaca file Excel BOQ mentah yang kompleks dengan banyak kolom, se
 ![UI Language](https://img.shields.io/badge/UI--Language-ID%20%7C%20EN%20%7C%20ZH-orange?style=for-the-badge)
 ![Industry](https://img.shields.io/badge/Industry-Telecommunication%20%2F%20FTTH-red?style=for-the-badge)
 
-Aplikasi berbasis GUI Python yang dirancang khusus untuk mengotomatisasi pemisahan file *Bill of Quantities* (BOQ) telekomunikasi yang kompleks menjadi format **Material** dan **Service** yang bersih. Siap *upload* langsung ke sistem ERP/manajemen proyek (Default Vendor: **FiberHome / FH**).
+Aplikasi berbasis GUI Python yang dirancang khusus untuk mengotomatisasi pemisahan file *Bill of Quantities* (BOQ) telekomunikasi yang kompleks menjadi format **Material** dan **Service** yang bersih. Siap *upload* langsung ke sistem ERP/manajemen proyek.
 
 ---
 
