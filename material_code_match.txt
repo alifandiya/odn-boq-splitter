@@ -1,0 +1,70 @@
+200000100,FO core type SM G.652.D-ADSS 24 cores
+200000975,FO core type SM G.652.D-ADSS 36 cores
+200001038,FO core type SM G.652.D-ADSS 48 cores
+200001630,FO core type SM G.652.D-ADSS 96 cores
+200001030,FO core  type SM G.652.D-ADSS 144 cores
+200001015,FO core type SM G.652.D-ADSS 288 cores
+200001039,48 cores capacity pole mounted FDT
+200001040,72 cores capacity pole mounted FDT
+200001041,96 cores capacity pole mounted FDT
+200001042,144 cores capacity ground mounted FDT
+200001043,288 cores capacity ground mounted FDT
+200001044,576 cores capacity ground mounted FDT
+100000191,Splitter 1:4
+100000826,Splitter 1:8 (Modular)
+200001045,Micro Splitter 1:4
+200001046,Micro Splitter 1:8
+200001047,Pole mounted outdoor type (16 ports type)
+100000824,Pedestal mounted type (16 ports type)
+200000165,Underground Pedestal SPH920 Signature Series Type include accessories & concrete base
+200000182,Fiber Optic Joint Closure Type In-line 24 Core
+200001048,Fiber Optic Joint Closure Type In-line 36 Core
+200000159,Fiber Optic Joint Closure Type In-line 48 Core
+200000179,Fiber Optic Joint Closure Type In-line 96 Core
+200000186,Fiber Optic Joint Closure Type In-line 144 Core
+200000155,Fiber Optic Joint Closure Type In-line 288 Core
+200000180,Fiber Optic Joint Closure Type Dome 24 Core
+200001049,Fiber Optic Joint Closure Type Dome 36 Core
+200000164,Fiber Optic Joint Closure Type Dome 48 Core
+200000178,Fiber Optic Joint Closure Type Dome 72 Core
+200000176,Fiber Optic Joint Closure Type Dome 96 Core
+200000158,Fiber Optic Joint Closure Type Dome 144 Core
+200000156,Fiber Optic Joint Closure Type Dome 288 Core
+300000098,Pigtail SM SC/APC
+200001009,Connector SC/APC
+500003031,Pengadaan dan Pemasangan 1 Subduct 50/42 pada polongan route Duct
+500003032,pengadaan dan Pemasangan 1 Subduct 50/42 pada polongan route Duct, 2 pipa
+500003034,Pekerjaan Perbaikan Route Duct / HDPE, 1 pipa.
+200001017,Sub Duct / HDPE 32/26 warna hitam, 3 strip ungu 
+200000994,Socket HDPE 32/28
+200000510,Sub Duct / HDPE 40/34 warna Ungu, 3 Strip Putih
+200000282,Socket HDPE 40/34
+200000181,Warning tape (Tulisan KABEL MY REPUBLIC)
+200000187,Pengadaan Tiang 7 meter 5", STEL L-003 1996
+200000169,Pengadaan  Tiang Tunggal 9 meter 5", STEL L-003 1996
+200001081,Pengadaan Tiang 7 meter 4", STEL L-003 1996
+200001181,Pengadaan  Tiang Tunggal 9 meter 4", STEL L-003 1996
+200001055,Pengadaan Tiang 7 meter 3 inch
+200000996,Temberang (perkuatan tiang termasuk sling, anchor dan aksesories)
+200000979,Tiang sokong (tiang 9m)
+200001007,Tiang sokong (tiang 7m)
+200001001,Standing Closed Rack 19" with Glass Panel
+200001005,Standing Open Rack 19" 
+200001036,Wall Mount Closed Rack Standard 19" with Glass Panel 12 U (450 mm Depth)
+200001002,Optical Distribution Frame(SC/APC) - 384 ports (ODF)
+200001010,Optical Distribution Frame(SC/APC) - 576 ports (ODF)
+200001020,Optical Distribution Frame(SC/APC) - 720 ports (ODF)
+200001037,Optical Distribution Frame(SC/APC) - 864 ports (ODF)
+200001029,Optical Distribution Frame(SC/APC) - 48 ports (ODF)
+200001026,Optical Distribution Frame(SC/APC) - 168 ports (ODF)
+200000990,Optical Distribution Frame(SC/APC) - 288 ports (ODF)
+200001019,Optical Distribution Frame(SC/APC) - 576 ports (ODF)
+100000187,12 core capacity
+100000188,24 core capacity
+100000189,48 core capacity
+100000820,72 core capacity
+100000821,96 core capacity
+200000069,Patchcord SM G.657A2 SC/APC - SC/UPC - 10 m 
+200001025,Patchcord SM G.657A2 SC/APC - SC/UPC - 3 m 
+200001024,Patchcord SM G.657A2 SC/APC - SC/APC - 10 m 
+200000251,Patchcord SM G.657A2 SC/APC - SC/APC - 3 m 

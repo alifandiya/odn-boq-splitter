@@ -1,0 +1,185 @@
+500003800,Pengamanan & Persiapan (Kesehatan dan Keselamatan Kerja)
+500003890,Transportasi, Mobilisasi & demobilisasi
+500002050,Instal FO core type SM G.652.D-ADSS 24 cores
+500002051,Instal FO core type SM G.652.D-ADSS 36 cores
+500002052,Instal FO core type SM G.652.D-ADSS 48 cores
+500002890,Instal FO core type SM G.652.D-ADSS 96 cores
+500002088,Instal FO core type SM G.652.D-ADSS 144 cores
+500002089,Instal  FO core type SM G.652.D-ADSS 288 cores
+500002053,Instal 48 cores capacity pole mounted FDT
+500002054,Instal 72 cores capacity pole mounted FDT
+500002055,Instal 96 cores capacity pole mounted FDT
+500002062,Instal 144 cores capacity pole mounted FDT
+500002073,Instal 288 cores capacity pole mounted FDT
+500002084,Instal 576 cores capacity pole mounted FDT
+100000191-1,Splitter 1:4
+100000826-1,Splitter 1:8 (Modular)
+200001045-1,Micro Splitter 1:4
+200001046-1,Micro Splitter 1:8
+500002142,Instal Pole mounted outdoor type (16 ports type) Pole
+500002097,Instal Ground mounted outdoor type (16 ports type)
+500002113,Instal Underground Pedestal SPH920 Signature Series Type include accessories & concrete base
+200000182-1,Fiber Optic Joint Closure Type In-line 24 Core
+200001048-1,Fiber Optic Joint Closure Type In-line 36 Core
+200000159-1,Fiber Optic Joint Closure Type In-line 48 Core
+200000179-1,Fiber Optic Joint Closure Type In-line 96 Core
+200000186-1,Fiber Optic Joint Closure Type In-line 144 Core
+200000155-1,Fiber Optic Joint Closure Type In-line 288 Core
+200000180-1,Fiber Optic Joint Closure Type Dome 24 Core
+200001049-1,Fiber Optic Joint Closure Type Dome 36 Core
+200000164-1,Fiber Optic Joint Closure Type Dome 48 Core
+200000178-1,Fiber Optic Joint Closure Type Dome 72 Core
+200000176-1,Fiber Optic Joint Closure Type Dome 96 Core
+200000158-1,Fiber Optic Joint Closure Type Dome 144 Core
+200000156-1,Fiber Optic Joint Closure Type Dome 288 Core
+300000098-1,Pigtail SM SC/APC
+200001009-1,Connector SC/APC
+500000510,Splicing
+200000290,Label Cable (on pole, in Handhole)
+200000273,Label FDT
+200000288,Label FAT (include QR Code)
+500001742,Label Pole
+200000802,Label Pedestal
+200001028,River crossing by self support
+200001011,River crossing by attach to existing bridge
+500002092,River crossing by 7m single pole hanging bridge
+500002093,River crossing by 9m single pole hanging bridge
+500002094,River crossing by 9m double pole hanging bridge
+500002115,Pekerjaan Trenching 150cm depth
+500002116,Pekerjaan Trenching 30-80 cm depth (distribution inside cluster only)
+500002117,Boring manual 150cm depth
+500002118,Boring manual 2 Sub Duct 150cm depth
+500002119,Boring manual 3 Sub Duct 150cm depth
+500002120,Boring manual PVC/HDPE 4" 150cm depth
+500000879,Boring directional jalan raya
+500002121,Boring directional jalan tol
+200000399,Boring rel kereta
+500000980,Boring Mesin
+500003620,Boring Manual 400 cm (Jalur KAI)
+500002847,Pengadaan dan pemasangan pipa Duct pada jembatan dengan self support berpenguatan menggunakan Pipa besi Galv 1 pipa, bentang 6 - 12 meter
+500002848,Pengadaan dan pemasangan pipa Duct pada jembatan dengan self support berpenguatan menggunakan Pipa besi Galv 2 pipa, bentang 6 - 12 meter
+500002849,Pengadaan dan pemasangan Pipa Duct dengan system gantung 1 tiang besi, bentang s/d 40 meter
+500003030,Pengadaan dan pemasangan Pipa Duct dengan system gantung 2 tiang besi, bentang s/d 100 meter
+500003031-1,Pengadaan dan Pemasangan 1 Subduct 50/42 pada polongan route Duct
+500003032-1,pengadaan dan Pemasangan 1 Subduct 50/42 pada polongan route Duct, 2 pipa
+500003033,Pekerjaan Pembersihan pada route Duct yang kosong / Rodding Duct Existing.
+500003034-1,Pekerjaan Perbaikan Route Duct / HDPE, 1 pipa.
+500003035,Pekerjaan bobok dinding MH / HH termasuk perbaikan kembali
+500003036,Pengadaan galian batu masif kedalaman 1,5 meter, panjang minimum 5 m, termasuk pengadaan marking post
+500003037,Pekerjaan galian pada permukaan jalan aspal dengan lebar galian 8 cm dan kedalaman 40 cm, termasuk pemetaan, pengurugan (backfilling) menggunakan concrete type K225 dan pengaspalan
+500003038,Pekerjaan Peninggian Tutup Manhole/Handhole
+500002144,Instal Sub Duct / HDPE 32/26 warna hitam, 3 strip ungu 
+500002145,Instal Socket HDPE 32/28
+500002146,Instal Sub Duct / HDPE 40/34 warna Ungu, 3 Strip Putih
+500002147,Instal Socket HDPE 40/34
+200000600,Galvanize pipe (diameter 1 inch) 
+200001054,Galvanize pipe (diameter 2 inch) 
+200000292,Galvanize pipe (diameter 3 inch) 
+200000742,Galvanize pipe (diameter 4 inch) 
+200001050,PVC AW pipe (diameter 1 inch) 
+200001051,PVC AW pipe (diameter 2 inch) 
+200001052,PVC AW pipe (diameter 3 inch) 
+200001053,PVC AW pipe (diameter 4 inch) 
+200001022,Cable Duct  TC-2
+200001035,Cable Duct  TC-3
+200001003,Cable Duct  TC-4
+200001023,Cable Duct  TC-5
+200001000,Cable Duct  TC-6
+200000998,Cable Duct  10 x 5 cm
+200001016,Cable Duct  10 x 10 cm
+200001008,Conduit pipe 3/4 inch
+200001018,Flexible 3/4 inch
+200000993,Shock Conduit Pipe 3/4 inch
+200001021,Clamp for PVC Conduit support 3/4 inch
+200001004,Steel Clamp dia 36 mm, width 25 mm, thickness 3 mm + dynabolt
+200000991,PVC Double Elbow 1.25"
+200000997,PVC Double Elbow 1.5"
+200001027,Socket (D-DS) 1 inch
+200001006,Large Radius Tee (D-LT) 2 x 1 inch
+200001014,Elbow (D-DL) 1 inch
+200000999,Dop 1 inch
+200000267,Tambang pancing/Roding rope
+200000978,Precast Hand hole for FDT : 80 x 80 x 130 cm
+500002102,Instal Precast Hand hole for FDT :  80 x 80 x 130 cm
+200000710,Concrete Hand hole for FDT: 80 x 80 x 130 cm
+500002101,Instal Concrete Hand hole for FDT: 80 x 80 x 130 cm
+200001032,Precast Hand hole for FAT : 40 x 40 x 60 cm
+500002060,Instal Precast Hand hole for FAT : 40 x 40 x 60 cm
+200000613,Concrete Hand hole  for FAT  : 40 x 40 x 60 cm
+500001316,Instal Concrete Hand hole  for FAT  : 40 x 40 x 60 cm
+200000992,Precast Hand hole for pulling pit : 20x20x20 cm
+500002061,Instal Precast Hand hole for pulling pit : 20x20x20 cm
+200001013,Concrete Hand hole for pulling pit : 20x20x20 cm
+500002063,Instal Concrete Hand hole for pulling pit : 20x20x20 cm
+500003621,Pembuatan HH PIT 100x100x4 M Jalur KAI
+500003622,Pemasangan Turab HH PIT dan Barikade
+200000977,Label HH
+200001034,Cable riser include accessories
+200000181-1,Warning tape (Tulisan KABEL MY REPUBLIC)
+200000160,Marking post (per 400 meter)
+200000310,Cable Tray include hanger and accessories
+200000995,Cable Ladder Tray include hanger and accessories
+500000993,Bobok dinding per titik
+500002067,Bobok ceiling per titik
+500002103,Public Right of Way (ROW)/Permit Aerial
+500002148,Kementerian Permit - Balai Besar (Balai Nasional)
+500002149,PU Permit
+500002150,Landlord Permit
+500002151,KAI Permit
+500002152,Community Permit
+500002153,Pengelola Tol Permit
+500002154,Pengelola LRT
+500002155,RT/RW Permit
+500002156,Pemerintah Daerah Permit
+500002157,Pemasangan Tiang 7 meter 5", STEL L-003 1996
+500001293,Pemasangan Tiang Tunggal 9 meter 5", STEL L-003 1996
+500002480,Pemasangan Tiang 7 meter 4", STEL L-003 1996
+500002337,Pemasangan Tiang Tunggal 9 meter 4", STEL L-003 1996
+500002159,Pemasangan Tiang 7 meter 3 inch
+200000996-1,Temberang (perkuatan tiang termasuk sling, anchor dan aksesories)
+200000979-1,Tiang sokong (tiang 9m)
+200001007-1,Tiang sokong (tiang 7m)
+200000185,Cable loop holder/plat strip/Cable hanger
+200001033,Instalasi strand wire/sling messenger 6 mm
+200000149,Plate belt 20mm
+200000148,Suspension clamp
+200000188,Steel hoop and rubber tape
+200000172,Buldog grip
+200002130,Clamp 8 (Clamp Gantung)
+200000175,Riser pipe 1,5"
+200000670,Galvanized steel pipe 2"
+200000166,Steel clamp
+200000145,Pole clamp single
+200000150,Pole clamp 2 cable installation
+500001103,Clamps Dead end Fittings/clamp buaya
+200000690,Bahan Pondasi tiang
+200001510,HELICAL DEAD END DIAMETER 15.7-17.0 MM
+200001070,Extention Arm
+500002069,Instal Standing Closed Rack 19" with Glass Panel
+500002070,Instal Standing Open Rack 19" 
+500002071,Instal Wall Mount Closed Rack Standard 19" with Glass Panel 12 U (450 mm Depth)
+500002072,Instal Optical Distribution Frame(SC/APC) - 384 ports (ODF)
+500002074,Instal Optical Distribution Frame(SC/APC) - 576 ports (ODF)
+500002075,Instal Optical Distribution Frame(SC/APC) - 720 ports (ODF)
+500002076,Instal Optical Distribution Frame(SC/APC) - 864 ports (ODF)
+500002077,Instal Optical Distribution Frame(SC/APC) - 48 ports (ODF)
+500002078,Instal Optical Distribution Frame(SC/APC) - 168 ports (ODF)
+500002079,Instal Optical Distribution Frame(SC/APC) - 288 ports (ODF)
+500002080,Instal Optical Distribution Frame(SC/APC) - 576 ports (ODF)
+100000187-1,12 core capacity
+100000188-1,24 core capacity
+100000189-1,48 core capacity
+100000820-1,72 core capacity
+100000821-1,96 core capacity
+200000069-1,Patchcord SM G.657A2 SC/APC - SC/UPC - 10 m 
+200001025-1,Patchcord SM G.657A2 SC/APC - SC/UPC - 3 m 
+200001024-1,Patchcord SM G.657A2 SC/APC - SC/APC - 10 m 
+200000251-1,Patchcord SM G.657A2 SC/APC - SC/APC - 3 m 
+500002085,Testcomm OTDR & OPM OLT - ODF
+500002106,Testcomm OTDR & OPM ODF - FDT
+500002107,Testcomm OTDR & OPM FDT - FAT
+500001519,Survey & Design (Asplan)
+500002108,As Built Drawing A1 (1 set asli + 3 set copy + soft copy), KMZ, BOQ
+500002108-1,As Built Drawing A1 (1 set asli + 3 set copy + soft copy), KMZ, BOQ
+500001887,Project Management
+500001853,Warehouse 
