@@ -148,7 +148,6 @@
 200002130,Clamp 8 (Clamp Gantung)
 200000175,Riser pipe 1,5"
 200000670,Galvanized steel pipe 2"
-200000166,Steel clamp
 200000145,Pole clamp single
 200000150,Pole clamp 2 cable installation
 500001103,Clamps Dead end Fittings/clamp buaya

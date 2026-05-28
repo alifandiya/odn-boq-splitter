@@ -1,0 +1,12 @@
+CATATAN PATCH STEEL CLAMP - REVISI HAPUS DARI OUTPUT MATERIAL
+
+Masalah:
+Steel clamp masih tercetak pada output Excel material karena kode 200000166 masih aktif pada file mapping.
+
+Perbaikan yang dilakukan:
+1. Menghapus mapping 200000166,Steel clamp dari material_code_match.txt.
+2. Menghapus mapping 200000166,Steel clamp dari service_code_match.txt.
+3. Menambahkan kode 200000166 ke material_codes_to_delete.txt agar tidak dicetak pada output Material.
+
+Catatan penggunaan:
+Jika aplikasi sudah pernah dibuild menjadi EXE sebelumnya, lakukan build ulang dari ZIP revisi ini agar file konfigurasi terbaru ikut masuk ke EXE.

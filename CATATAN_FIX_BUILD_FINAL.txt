@@ -1,0 +1,13 @@
+CATATAN FIX BUILD FINAL
+
+Versi BUILD_FIXED ini memperbaiki sisi build EXE:
+- BUILD_EXE.bat diganti menjadi metode PyInstaller langsung tanpa .spec.
+- Pencarian Python dibuat lebih luas, termasuk folder custom C:\Language Programming.
+- Semua pesan build disimpan ke build_error_log.txt.
+- Disediakan BUILD_EXE_TANPA_ICON.bat jika error berasal dari app_icon.ico.
+- Disediakan TEST_JALANKAN_APP.bat untuk mengetes aplikasi sebelum build.
+
+Fix aplikasi tetap sama:
+- Steel clamp tetap masuk ke ABD Material.
+- Kode 200000166 tidak dibuang dari material_codes_to_delete.txt.
+- Fallback kode dilakukan dari material mapping lalu service mapping.

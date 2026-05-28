@@ -1,0 +1,18 @@
+CATATAN FIX ICON - Kalashnikova BOQ Split FINAL
+
+Versi FINAL ini tetap memakai app_icon.ico untuk icon EXE dan icon window aplikasi.
+
+Perubahan dibanding paket lama:
+1. Build memakai Kalashnikova_BOQ_Split_FINAL.py, bukan file .pyd.
+2. File Kalashnikova_BOQ_Split_FINAL.spec sudah memasukkan app_icon.ico ke bagian icon dan datas.
+3. run_app.py tetap melakukan patch icon Tkinter saat aplikasi dibuka.
+4. Jika Windows Explorer masih menampilkan icon lama, biasanya penyebabnya cache icon Windows.
+
+Cara membersihkan cache icon:
+1. Tutup Windows Explorer yang membuka folder dist.
+2. Jalankan BERSIHKAN_CACHE_ICON_WINDOWS.bat.
+3. Buka ulang folder dist.
+4. Jika perlu, rename EXE agar Windows memuat icon baru.
+
+Hasil build normal:
+dist\Kalashnikova_BOQ_Split_FINAL.exe

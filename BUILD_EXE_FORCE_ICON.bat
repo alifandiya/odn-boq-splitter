@@ -2,8 +2,9 @@
 setlocal
 cd /d "%~dp0"
 
-set "APP_NAME=Kalashnikova_BOQ_Split_V1"
+set "APP_NAME=Kalashnikova_BOQ_Split_FINAL"
 set "ICON_FILE=%cd%\app_icon.ico"
+set "PY_CMD="
 
 echo ============================================================
 echo  BUILD EXE FORCE ICON - Tanpa memakai file .spec
@@ -18,16 +19,24 @@ if not exist "%ICON_FILE%" (
     exit /b 1
 )
 
-py -3.14 -c "import platform; assert platform.architecture()[0]=='64bit'" >nul 2>nul
-if errorlevel 1 (
-    echo Python 3.14 64-bit tidak ditemukan.
+py -3.12 -c "import platform; assert platform.architecture()[0]=='64bit'" >nul 2>nul
+if not errorlevel 1 set "PY_CMD=py -3.12"
+if "%PY_CMD%"=="" py -3.13 -c "import platform; assert platform.architecture()[0]=='64bit'" >nul 2>nul
+if "%PY_CMD%"=="" if not errorlevel 1 set "PY_CMD=py -3.13"
+if "%PY_CMD%"=="" py -3.14 -c "import platform; assert platform.architecture()[0]=='64bit'" >nul 2>nul
+if "%PY_CMD%"=="" if not errorlevel 1 set "PY_CMD=py -3.14"
+if "%PY_CMD%"=="" python -c "import platform; assert platform.architecture()[0]=='64bit'" >nul 2>nul
+if "%PY_CMD%"=="" if not errorlevel 1 set "PY_CMD=python"
+
+if "%PY_CMD%"=="" (
+    echo Python 64-bit tidak ditemukan.
     pause
     exit /b 1
 )
 
 echo [1/4] Install dependency...
-py -3.14 -m pip install --upgrade pip
-py -3.14 -m pip install pandas openpyxl pyinstaller
+%PY_CMD% -m pip install --upgrade pip
+%PY_CMD% -m pip install pandas openpyxl pyinstaller
 if errorlevel 1 goto gagal
 
 echo.
@@ -38,8 +47,7 @@ if exist "%APP_NAME%.spec" del /f /q "%APP_NAME%.spec"
 
 echo.
 echo [3/4] Membuat EXE dengan parameter --icon langsung...
-py -3.14 -m PyInstaller --clean --noconfirm --onefile --windowed --name "%APP_NAME%" --icon "%ICON_FILE%" ^
-  --add-binary "%cd%\Kalashnikova_BOQ_Split_V1.pyd;." ^
+%PY_CMD% -m PyInstaller --clean --noconfirm --onefile --windowed --name "%APP_NAME%" --icon "%ICON_FILE%" ^
   --add-data "%cd%\app_icon.ico;." ^
   --add-data "%cd%\config.json;." ^
   --add-data "%cd%\material_code_match.txt;." ^
