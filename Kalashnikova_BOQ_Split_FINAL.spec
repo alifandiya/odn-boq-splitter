@@ -1,43 +1,18 @@
 # -*- mode: python ; coding: utf-8 -*-
-# Spec relatif, tidak memakai path absolut D:\ sehingga aman dipindah folder.
-from pathlib import Path
 from PyInstaller.utils.hooks import collect_all
 
-BASE = Path.cwd()
-APP_NAME = 'Kalashnikova_BOQ_Split_FINAL'
-
-datas = [
-    (str(BASE / 'app_icon.ico'), '.'),
-    (str(BASE / 'config.json'), '.'),
-    (str(BASE / 'material_code_match.txt'), '.'),
-    (str(BASE / 'material_codes_to_convert_unit.txt'), '.'),
-    (str(BASE / 'material_codes_to_delete.txt'), '.'),
-    (str(BASE / 'service_code_match.txt'), '.'),
-]
-
-binaries = [
-    (str(BASE / f'{APP_NAME}.pyd'), '.'),
-]
-
-hiddenimports = [
-    APP_NAME,
-    'tkinter',
-    'tkinter.ttk',
-    'tkinter.filedialog',
-    'tkinter.messagebox',
-    'openpyxl.cell._writer',
-]
-
-for pkg in ('pandas', 'openpyxl'):
-    collected_datas, collected_binaries, collected_hiddenimports = collect_all(pkg)
-    datas += collected_datas
-    binaries += collected_binaries
-    hiddenimports += collected_hiddenimports
+datas = [('D:\\Alif Data\\Alif File\\PROJECT PYTHON\\COMPLETED\\BOQ SPLIT UP BASED ON MATERIAL AND SERVICE\\DRAFT FOR PUBLIC RELEASE\\app_icon.ico', '.'), ('D:\\Alif Data\\Alif File\\PROJECT PYTHON\\COMPLETED\\BOQ SPLIT UP BASED ON MATERIAL AND SERVICE\\DRAFT FOR PUBLIC RELEASE\\config.json', '.'), ('D:\\Alif Data\\Alif File\\PROJECT PYTHON\\COMPLETED\\BOQ SPLIT UP BASED ON MATERIAL AND SERVICE\\DRAFT FOR PUBLIC RELEASE\\material_code_match.txt', '.'), ('D:\\Alif Data\\Alif File\\PROJECT PYTHON\\COMPLETED\\BOQ SPLIT UP BASED ON MATERIAL AND SERVICE\\DRAFT FOR PUBLIC RELEASE\\material_codes_to_convert_unit.txt', '.'), ('D:\\Alif Data\\Alif File\\PROJECT PYTHON\\COMPLETED\\BOQ SPLIT UP BASED ON MATERIAL AND SERVICE\\DRAFT FOR PUBLIC RELEASE\\material_codes_to_delete.txt', '.'), ('D:\\Alif Data\\Alif File\\PROJECT PYTHON\\COMPLETED\\BOQ SPLIT UP BASED ON MATERIAL AND SERVICE\\DRAFT FOR PUBLIC RELEASE\\service_code_match.txt', '.')]
+binaries = [('D:\\Alif Data\\Alif File\\PROJECT PYTHON\\COMPLETED\\BOQ SPLIT UP BASED ON MATERIAL AND SERVICE\\DRAFT FOR PUBLIC RELEASE\\Kalashnikova_BOQ_Split_FINAL.pyd', '.')]
+hiddenimports = ['Kalashnikova_BOQ_Split_FINAL', 'tkinter', 'tkinter.ttk', 'tkinter.filedialog', 'tkinter.messagebox', 'openpyxl.cell._writer']
+tmp_ret = collect_all('pandas')
+datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
+tmp_ret = collect_all('openpyxl')
+datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 
 
 a = Analysis(
-    [str(BASE / 'run_app.py')],
-    pathex=[str(BASE)],
+    ['D:\\Alif Data\\Alif File\\PROJECT PYTHON\\COMPLETED\\BOQ SPLIT UP BASED ON MATERIAL AND SERVICE\\DRAFT FOR PUBLIC RELEASE\\run_app.py'],
+    pathex=[],
     binaries=binaries,
     datas=datas,
     hiddenimports=hiddenimports,
@@ -56,7 +31,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name=APP_NAME,
+    name='Kalashnikova_BOQ_Split_FINAL',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -69,5 +44,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=[str(BASE / 'app_icon.ico')],
+    icon=['D:\\Alif Data\\Alif File\\PROJECT PYTHON\\COMPLETED\\BOQ SPLIT UP BASED ON MATERIAL AND SERVICE\\DRAFT FOR PUBLIC RELEASE\\app_icon.ico'],
 )

@@ -73,7 +73,6 @@
       "Kode Material"
     ],
     "corrected_code": [
-      "Koreksi No Material",
       "Corrected Material Code",
       "Correction Material Code",
       "Kode Koreksi Material"
@@ -190,5 +189,6 @@
   "output_exact_reference_format": true,
   "output_source_mode": "dynamic_from_selected_boq_sheet",
   "output_source_note": "Output code, description, unit, quantity, and remarks are taken from the selected BOQ sheet. Mapping files are fallback/special service split only.",
-  "qty_column_selection_note": "APD reads As Plan Material Qty/Service Qty. ABD reads As Build Material Qty/Service Qty from BoQ Roll Out ODN. If the selected sheet has only one qty pair, that pair is used."
+  "qty_column_selection_note": "APD reads As Plan Material Qty/Service Qty. ABD reads As Build Material Qty/Service Qty from BoQ Roll Out ODN. If the selected sheet has only one qty pair, that pair is used.",
+  "fix_note_material_code_20260529": "Kolom Koreksi No Material diabaikan karena pada beberapa BOQ kolom ini berisi qty koreksi, bukan kode material. Aplikasi akan memakai No Material sebagai kode utama. Alias koreksi English tetap tersedia bila kolom tersebut benar-benar berisi kode."
 }

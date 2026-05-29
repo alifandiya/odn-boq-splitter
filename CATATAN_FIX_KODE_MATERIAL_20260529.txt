@@ -1,0 +1,14 @@
+FIX KODE MATERIAL - 2026-05-29
+
+Masalah:
+- Output material menampilkan angka qty seperti 8875, 192, 105, 21, 97 sebagai material code.
+- Penyebabnya kolom "Koreksi No Material" pada BOQ berisi qty koreksi, bukan kode material.
+- Versi sebelumnya memprioritaskan kolom "Koreksi No Material" sebelum "No Material".
+
+Perbaikan:
+- Alias "Koreksi No Material" dihapus dari konfigurasi corrected_code.
+- Aplikasi sekarang membaca kode utama dari kolom "No Material".
+- Alias koreksi lain seperti "Corrected Material Code" tetap disimpan jika suatu BOQ memang punya kolom koreksi kode yang valid.
+
+Dampak:
+- File BOQ Boyolali akan menghasilkan material code 200001030, 200000186, 200000290, dan seterusnya, bukan angka qty.
