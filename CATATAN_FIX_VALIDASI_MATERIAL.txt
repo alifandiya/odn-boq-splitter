@@ -1,0 +1,6 @@
+Versi ini menggunakan struktur EXE Builder FINAL.
+
+Perbaikan:
+- Kode material dari BOQ hanya diterima jika ada di material_code_match.txt.
+- Kode yang tidak ada di master tidak dicetak ke output.
+- Contoh 200001183 ditolak jika tidak ada di material_code_match.txt.

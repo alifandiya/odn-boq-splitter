@@ -1,0 +1,15 @@
+Penyebab yang ditemukan:
+
+1. Paket sebelumnya masih mencampurkan source Python dan file .pyd.
+   File .pyd hanya kompatibel dengan versi Python tertentu.
+
+2. Build memakai spec/path lama yang dapat menunjuk ke lokasi komputer pembuat.
+
+3. File resource (config dan txt mapping) belum selalu dimasukkan ke bundle EXE.
+
+Perbaikan:
+- Build memakai source .py langsung.
+- PyInstaller memakai --clean.
+- Semua file mapping dimasukkan dengan --add-data.
+- Tidak tergantung pada path absolut.
+- Bisa memakai Python 3.12/3.13/3.14 64-bit.
